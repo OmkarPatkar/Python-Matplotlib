@@ -28,6 +28,7 @@ dev_y = [38496, 42000, 46752, 49320, 53200,
          56000, 62316, 64928, 67317, 68748, 73752]
 plt.bar(x_indexes + width, dev_y, color = '#80BD9E', width = width, label = 'all devs')
 
+#to get the correct values on the axis 
 plt.xticks(ticks = x_indexes, labels = ages)
 plt.title('Median Salaries (USD) by Age')
 plt.xlabel('ages')
